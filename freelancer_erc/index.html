@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer</title>
+    <link rel="preload" href="css/normalize.css" as="style"><!-- carga la hoja de estilos linea importante -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- siempre es la primera libreria Normalize -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/styles.css" as="style"><!-- carga la hoja de estilos linea importante -->
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- la propiedad rel dice que el archivo es relacionado como hoja de estilos -->
+
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Emmanuel Razo <span>Freelancer</span></h1>
+
+        <div class="nav-bg">
+            <nav class="navegacion-principal contenedor">
+                <a href="#">Inicio</a>
+                <a href="#">Sobre Mi</a>
+                <a href="https://www.linkedin.com/in/emmanuel-razo-cabrera-97890a22" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="#">Contactos</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="image">
+        <div class="contenido-image">
+            <h2>Diseño Web, 3D printing, Domotica</h2>
+            <div class="ubicacion">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFc107" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <line x1="18" y1="6" x2="18" y2="6.01" />
+                    <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+                    <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
+                    <line x1="9" y1="4" x2="9" y2="17" />
+                    <line x1="15" y1="15" x2="15" y2="20" />
+                </svg>
+                <p>Salamanca, Guanajuato</p>
+            </div>
+
+            <a class="button" href="#">Contactar</a>
+        </div>
+    </section>
+
+    <main class="contenedor shadow">
+        <h2>Mis Servicios</h2>
+
+        <div class="services">
+            <section class="service">
+                <h3>Diseño Web</h3>
+                <div class="icono">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-laptop" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <line x1="3" y1="19" x2="21" y2="19" />
+                        <rect x="5" y="6" width="14" height="10" rx="1" />
+                    </svg>
+                </div>
+                <p>Estamos enfocados en el desarrollo de interfaces digitales tal como el diseño de sitios y aplicaciones para web, creando sitios intuitivos y fáciles de manejar por el usuario</p>
+            </section>
+
+            <section class="service">
+                <h3>3D design & 3D printing</h3>
+                <div class="icono">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-3d-cube-sphere" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M6 17.6l-2 -1.1v-2.5" />
+                        <path d="M4 10v-2.5l2 -1.1" />
+                        <path d="M10 4.1l2 -1.1l2 1.1" />
+                        <path d="M18 6.4l2 1.1v2.5" />
+                        <path d="M20 14v2.5l-2 1.12" />
+                        <path d="M14 19.9l-2 1.1l-2 -1.1" />
+                        <line x1="12" y1="12" x2="14" y2="10.9" />
+                        <line x1="18" y1="8.6" x2="20" y2="7.5" />
+                        <line x1="12" y1="12" x2="12" y2="14.5" />
+                        <line x1="12" y1="18.5" x2="12" y2="21" />
+                        <path d="M12 12l-2 -1.12" />
+                        <line x1="6" y1="8.6" x2="4" y2="7.5" />
+                    </svg>
+                </div>
+                <p>Estamos enfocados en el diseño, modelado e impresion 3D que le da al cliente la opcion de crear de manera física todas las ideas que quiera materializar. La impresion 3D permite que las ideas digitales se incorporen al mundo fisico de una forma fácil, rápida y barata</p>
+            </section>
+
+            <section class="service">
+                <h3>Domotica</h3>
+                <div class="icono">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-smart-home" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M19 8.71l-5.333 -4.148a2.666 2.666 0 0 0 -3.274 0l-5.334 4.148a2.665 2.665 0 0 0 -1.029 2.105v7.2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-7.2c0 -.823 -.38 -1.6 -1.03 -2.105" />
+                        <path d="M16 15c-2.21 1.333 -5.792 1.333 -8 0" />
+                    </svg>
+                </div>
+                <p>Nuestra experiencia en el manejo de tecnologia IoT nos permite desarrollar ambientes inteligentes para nuestros clientes, desde un simple comando podemos prender luces o hasta activar puertas, sensores y alarmas.</p>
+            </section>
+        </div> <!-- Cierre clase services -->
+    
+
+        <section>
+            <h2>Contacto</h2>
+
+            <form class="formulario">
+                <fieldset>
+                    <legend>Contáctanos llenando todos los campos</legend>
+
+                    <div class="field-container">
+                        <div class="field">
+                            <label>Nombre</label>
+                            <input class="input-text" type="text" placeholder="Tu nombre">
+                        </div>
+
+                        <div class="field">
+                            <label >Teléfono</label>
+                            <input class="input-text" type="tel" placeholder="Ej: 460 000 0000">
+                        </div>
+
+                        <div class="field">
+                            <label>Correo</label>
+                            <input class="input-text" type="email" name="" placeholder="ej: algo@dominio.com">
+                        </div>
+
+                        <div class="field">
+                            <label>Mensaje</label>
+                            <textarea class="input-text"></textarea>
+                        </div>
+                    </div>
+                    <div class="align-right flex">
+                        <input class="button w-sd-100" type="submit" value="Enviar">
+                    </div>
+
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Derechos Reservados &#169, Emmanuel Razo</p>
+    </footer>
+    
+
+
+
+    
+</body>
+</html>
